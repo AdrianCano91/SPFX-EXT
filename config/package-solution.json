@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "formacion-ext-client-side-solution",
+    "id": "f1a2c7b2-ffb0-4561-8302-950a8738b590",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "formacion-ext description"
+      },
+      "longDescription": {
+        "default": "formacion-ext description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "bb2dfb49-97be-4a50-bfb1-c630b6197cfc",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/formacion-ext.sppkg"
+  }
+}

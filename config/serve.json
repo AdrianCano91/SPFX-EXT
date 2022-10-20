@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://m365x60205448.sharepoint.com/sites/FormacioAdrian",
+      "customActions": {
+        "c218ca75-39be-4a27-a1ea-65701bfb3b16": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "formacionExt": {
+      "pageUrl": "https://m365x60205448.sharepoint.com/sites/FormacioAdrian",
+      "customActions": {
+        "c218ca75-39be-4a27-a1ea-65701bfb3b16": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}

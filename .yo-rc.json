@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "formacion-ext",
+    "libraryId": "f1a2c7b2-ffb0-4561-8302-950a8738b590",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "formacion-ext",
+    "solutionShortDescription": "formacion-ext description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
